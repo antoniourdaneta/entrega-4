@@ -491,3 +491,19 @@ h2 {
   animation-duration: 2s;
   animation-iteration-count: initial;
 }
+
+.transicionEnviar {
+  transform: scale(1.0,0.9);
+}
+
+.transicionRestablecer {
+  transform: scale(1.0,0.9);
+}
+
+.transicionEnviar:hover {
+  transform: scale(1.0,1.1);
+}
+
+.transicionRestablecer:hover {
+  transform: scale(1.0,1.1);
+}
