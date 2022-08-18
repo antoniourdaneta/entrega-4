@@ -1,0 +1,471 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #faf9f9;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 200%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  padding: 25px 25px 25px 25px;
+  background-image: url(../multimedia/header.jpg);
+  background-color: white;
+  background-repeat: no-repeat;
+  -webkit-text-stroke: 2px black;
+}
+
+h2 {
+  font-size: 120%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #89b0ae;
+  background-color: none;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 100%;
+}
+
+p {
+  font-size: 100%;
+}
+
+.sucursalPrincipal {
+  font-style: oblique;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.sucursalSecundaria {
+  font-style: oblique;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.imagenSucursales {
+  border: 2px black solid;
+  width: 90%;
+  height: 80%;
+}
+
+.videoYoutube {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.salto {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.br {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-left: 10px;
+  list-style-type: none;
+  font-size: 100%;
+}
+
+ol li {
+  list-style: none;
+  font-size: 100%;
+}
+
+.contacto {
+  margin-bottom: 10px;
+}
+
+.inicio {
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.alineadoCentro {
+  text-align: center;
+}
+
+.espaciadoFooter {
+  margin: 10px 10px 10px 10px;
+}
+
+.bloqueServicios {
+  display: inline;
+  margin: 0px 20px 20px 20px;
+  width: 80%;
+  height: 80%;
+  border: 5px #6d8c8b solid;
+}
+
+.margenCuerpo {
+  margin-left: 10px;
+}
+
+/* GRID */
+
+.gridPadre1 {
+  display: grid;
+  grid-template-areas:
+  "nav header header header"
+  "nav novedades novedades novedades"
+  "nav motto motto motto"
+  "nav footer footer footer"
+  ;
+}
+
+header {
+  background-color: white;
+  grid-area: header;
+}
+
+nav {
+  background-color: whitesmoke;
+  grid-area: nav;
+}
+
+main {
+  background-color: white;
+  grid-area: novedades;
+}
+
+.motto {
+  background-color: white;
+  grid-area: motto;
+}
+
+footer {
+  background-color: rgb(239, 239, 239);
+  grid-area: footer;
+  /* font-size: 100%; */
+}
+
+.gridPadre2 {
+  display: grid;
+  grid-template-areas:
+  "nav header header header"
+  "nav novedades novedades novedades"
+  "nav motto motto motto"
+  "nav footer footer footer"
+  ;
+}
+
+header {
+  background-color: white;
+  grid-area: header;
+}
+
+nav {
+  background-color: whitesmoke;
+  grid-area: nav;
+}
+
+main {
+  background-color: white;
+  grid-area: novedades;
+}
+
+.motto {
+  background-color: white;
+  grid-area: motto;
+}
+
+footer {
+  background-color: rgb(239, 239, 239);
+  grid-area: footer;
+}
+
+.gridPadre3 {
+  display: grid;
+  grid-template-areas:
+  "nav header header header"
+  "nav novedades novedades novedades"
+  "nav motto motto motto"
+  "nav footer footer footer"
+  ;
+}
+
+header {
+  background-color: white;
+  grid-area: header;
+}
+
+nav {
+  background-color: whitesmoke;
+  grid-area: nav;
+}
+
+main {
+  background-color: white;
+  grid-area: novedades;
+}
+
+.motto {
+  background-color: white;
+  grid-area: motto;
+}
+
+footer {
+  background-color: rgb(239, 239, 239);
+  grid-area: footer;
+}
+
+.gridPadre4 {
+  display: grid;
+  grid-template-areas:
+  "nav header header header"
+  "nav novedades novedades novedades"
+  "nav motto motto motto"
+  "nav footer footer footer"
+  ;
+}
+
+header {
+  background-color: white;
+  grid-area: header;
+}
+
+nav {
+  background-color: whitesmoke;
+  grid-area: nav;
+}
+
+main {
+  background-color: white;
+  grid-area: novedades;
+}
+
+.motto {
+  background-color: white;
+  grid-area: motto;
+}
+
+footer {
+  background-color: rgb(239, 239, 239);
+  grid-area: footer;
+}
+
+.gridPadre5 {
+  display: grid;
+  grid-template-areas:
+  "nav header header header"
+  "nav novedades novedades novedades"
+  "nav motto motto motto"
+  "nav footer footer footer"
+  ;
+}
+
+header {
+  background-color: white;
+  grid-area: header;
+}
+
+nav {
+  background-color: whitesmoke;
+  grid-area: nav;
+}
+
+main {
+  background-color: white;
+  grid-area: novedades;
+}
+
+.motto {
+  background-color: white;
+  grid-area: motto;
+}
+
+footer {
+  background-color: rgb(239, 239, 239);
+  grid-area: footer;
+}
+
+/* FLEXBOX */
+
+.serviciosFlex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.servicioUno {
+  font-size: 80%;
+  width: 50%;
+  text-align: center;
+}
+
+.servicioDos {
+  font-size: 80%;
+  width: 50%;
+  text-align: center;
+}
+
+.servicioTres {
+  font-size: 80%;
+  width: 50%;
+  text-align: center;
+}
+
+.servicioCuatro {
+  font-size: 80%;
+  width: 50%;
+  text-align: center;
+}
+
+.quienesSomosFlex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flexboxSucursalPrincipal {
+  width: 50%;
+  text-align: center;
+}
+
+.flexboxSucursalSecundaria {
+  width: 50%;
+  text-align: center;
+}
+
+.videoYTFlexbox {
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: center;
+}
+
+.videoYoutube {
+  text-align: center;
+}
+
+.contactoFlex {
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: center;
+}
+
+.formularioContactoFlex {
+  text-align: center;
+  border: gray 2px solid;
+  border-radius: 0.5rem;
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.asociacionFlex {
+  display: flex;
+  justify-content: center;
+}
+
+.asociacionHijoFlex {
+  text-align: center;
+  border: gray 2px solid;
+  border-radius: 0.5rem;
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.indexFlex {
+  display: flex;
+  justify-content: center;
+}
+
+.homepageFlex {
+  text-align: center;
+}
+
+.bordeInferior {
+  border-bottom: 2px rgb(180, 180, 180) solid;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 768px) {
+
+  h1 {
+    -webkit-text-stroke: 2px black;
+  }
+
+  .videoYoutube {
+    margin-right: 10px;
+  }
+
+  .serviciosFlex {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .servicioTres {
+    display: none;
+  }
+
+  .servicioCuatro {
+    display: none;
+  }
+
+  .gridPadre1 {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "nav novedades"
+    "nav motto"
+    "nav footer"
+    ;
+  }
+
+  .gridPadre2 {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "nav novedades"
+    "nav motto"
+    "nav footer"
+    ;
+  }
+
+  .gridPadre3 {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "nav novedades"
+    "nav motto"
+    "nav footer"
+    ;
+  }
+
+  .gridPadre4 {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "nav novedades"
+    "nav motto"
+    "nav footer"
+    ;
+  }
+
+  .gridPadre5 {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "nav novedades"
+    "nav motto"
+    "nav footer"
+    ;
+  }
+}
